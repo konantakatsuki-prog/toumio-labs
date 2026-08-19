@@ -103,7 +103,7 @@ img, svg { display: block; max-width: 100%; }
 .product-card p { max-width: 37rem; margin: 0; color: var(--muted); }
 .product-card .card-footer { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-top: auto; padding-top: 3rem; }
 .product-card .card-kicker { color: var(--violet-deep); font-size: .73rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
-.mochi-card { background: #f0eefb; }
+.mochi-card { background: radial-gradient(ellipse at 86% 14%, rgba(250,255,255,.96) 0 8%, rgba(194,246,248,.8) 24%, transparent 50%), radial-gradient(ellipse at 10% 78%, rgba(47,221,226,.72) 0 12%, transparent 50%), linear-gradient(122deg, #d9f7f7 0%, #b9dfff 38%, #bcb0f2 100%); }
 .mochi-window { position: relative; min-height: 245px; margin-top: 3rem; overflow: hidden; border-radius: .85rem; background: rgba(255,255,255,.62); box-shadow: 0 16px 40px rgba(53,39,145,.12); transform: rotate(-2deg); }
 .window-top { display: flex; gap: .4rem; padding: .8rem; }
 .window-top i { width: 6px; height: 6px; border-radius: 50%; background: #c6bdf4; }
@@ -114,7 +114,7 @@ img, svg { display: block; max-width: 100%; }
 .window-chat { position: relative; padding: 1.2rem; }
 .window-chat::before { content: "A workspace with room to think"; display: block; max-width: 12rem; color: #40388a; font-size: .8rem; line-height: 1.35; }
 .window-chat::after { content: ""; position: absolute; right: 14%; bottom: 18%; width: 35%; height: 42%; border-radius: .5rem; background: linear-gradient(145deg, #fbfaff, #dcd5ff); box-shadow: inset 0 0 0 1px rgba(72,52,170,.15); }
-.haven-card { background: var(--pink-pale); }
+.haven-card { background: radial-gradient(ellipse at 8% 18%, rgba(255,246,220,.9) 0 10%, transparent 46%), radial-gradient(ellipse at 88% 82%, rgba(241,129,157,.7) 0 14%, transparent 52%), linear-gradient(135deg, #ffd7b0 0%, #f5b0c6 52%, #f3cce5 100%); }
 .haven-art { position: relative; display: grid; place-items: center; min-height: 235px; margin-top: 3.5rem; overflow: hidden; border-radius: .8rem; background: linear-gradient(145deg, #fbdde7, #e5a8c2); }
 .wave { width: 82%; height: 110px; }
 .wave path { fill: none; stroke: rgba(88, 44, 86, .65); stroke-width: 1.2; }
@@ -125,7 +125,7 @@ img, svg { display: block; max-width: 100%; }
 .explore-card { display: flex; flex-direction: column; justify-content: space-between; min-height: 300px; padding: 1.35rem; background: rgba(255,254,250,.42); transition: background .25s ease, transform .25s ease; }
 .explore-card:hover { background: var(--white); transform: translateY(-4px); }
 .explore-number { color: var(--violet); font-size: .8rem; font-weight: 800; }
-.explore-card h3 { margin: 3rem 0 0; font-size: clamp(1.35rem, 2.3vw, 2rem); line-height: 1.02; letter-spacing: -.045em; font-weight: 560; }
+.explore-card h3 { margin: 0; font-size: clamp(1.35rem, 2.3vw, 2rem); line-height: 1.02; letter-spacing: -.045em; font-weight: 560; }
 .explore-card p { margin: .8rem 0 0; color: var(--muted); font-size: .88rem; }
 
 .updates-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-top: 2.7rem; }
@@ -249,7 +249,7 @@ img, svg { display: block; max-width: 100%; }
   .statement .eyebrow, .statement .text-link { color: var(--pink); }
   .explore-card { background: rgba(26, 26, 31, .62); }
   .explore-card:hover { background: #24242b; }
-  .mochi-card { background: #211e38; }
+  .mochi-card { background: radial-gradient(ellipse at 86% 14%, rgba(164,238,242,.32) 0 8%, transparent 46%), radial-gradient(ellipse at 10% 78%, rgba(43,183,211,.38) 0 12%, transparent 50%), linear-gradient(122deg, #202744 0%, #243a68 48%, #2c2853 100%); }
   .mochi-window { border-color: rgba(185, 176, 255, .25); background: rgba(26, 26, 31, .72); }
   .window-top { border-color: rgba(185, 176, 255, .18); }
   .window-top i { background: #7064b5; }
@@ -258,7 +258,7 @@ img, svg { display: block; max-width: 100%; }
   .window-side b { background: var(--violet); }
   .window-chat::before { color: #d7d2ff; }
   .window-chat::after { background: linear-gradient(145deg, #302b4d, #211e38); box-shadow: inset 0 0 0 1px rgba(185, 176, 255, .2); }
-  .haven-card { background: #38232f; }
+  .haven-card { background: radial-gradient(ellipse at 8% 18%, rgba(255,218,165,.24) 0 10%, transparent 46%), radial-gradient(ellipse at 88% 82%, rgba(241,104,145,.34) 0 14%, transparent 52%), linear-gradient(135deg, #493041 0%, #5b3049 52%, #392b48 100%); }
   .haven-art { background: linear-gradient(145deg, #4a2b3b, #74405b); }
   .haven-art-large { background: linear-gradient(145deg, #422836, #713f59); }
   .haven-art-large::after { color: rgba(255, 238, 246, .72); }
