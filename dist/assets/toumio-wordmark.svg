@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Toumiō Labs wordmark</title>
+  <desc id="desc">Minimal Toumiō Labs parent company wordmark with violet accent.</desc>
+  <rect width="1200" height="300" fill="none"/>
+  <text x="70" y="175" fill="#15151A" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-size="122" font-weight="500" letter-spacing="8">TOUMIŌ</text>
+  <rect x="581" y="54" width="86" height="8" rx="4" fill="#4B39C6"/>
+  <text x="76" y="238" fill="#4B39C6" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="600" letter-spacing="13">LABS</text>
+</svg>
