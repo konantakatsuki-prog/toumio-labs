@@ -122,7 +122,7 @@ img, svg { display: block; max-width: 100%; }
 
 .muted-band { background: var(--paper-deep); }
 .explore-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: .7rem; margin-top: 2.7rem; }
-.explore-card { display: flex; flex-direction: column; justify-content: space-between; min-height: 300px; padding: 1.35rem; border: 1px solid var(--line); background: rgba(255,254,250,.42); transition: background .25s ease, transform .25s ease; }
+.explore-card { display: flex; flex-direction: column; justify-content: space-between; min-height: 300px; padding: 1.35rem; background: rgba(255,254,250,.42); transition: background .25s ease, transform .25s ease; }
 .explore-card:hover { background: var(--white); transform: translateY(-4px); }
 .explore-number { color: var(--violet); font-size: .8rem; font-weight: 800; }
 .explore-card h3 { margin: 3rem 0 0; font-size: clamp(1.35rem, 2.3vw, 2rem); line-height: 1.02; letter-spacing: -.045em; font-weight: 560; }
