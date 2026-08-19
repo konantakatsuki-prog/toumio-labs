@@ -75,7 +75,15 @@ img, svg { display: block; max-width: 100%; }
 .hero-art::before { content: ""; position: absolute; width: 19rem; height: 19rem; border-radius: 50%; top: 10%; left: 16%; background: radial-gradient(circle at 35% 34%, #fff 0 8%, #ddb7fb 18%, #9f84eb 45%, #5846bc 70%, #312470 100%); filter: blur(.2px); box-shadow: 1rem 2rem 4rem rgba(64, 42, 149, .24); }
 .hero-art::after { content: ""; position: absolute; width: 120%; height: 1px; top: 52%; left: -10%; background: rgba(255,255,255,.58); transform: rotate(-22deg); box-shadow: 0 58px 0 rgba(255,255,255,.22); }
 .art-label { position: absolute; left: 1.4rem; bottom: 1.2rem; z-index: 1; color: rgba(255,255,255,.8); font-size: .66rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
-.mark-art { display: grid; place-items: center; min-height: 430px; background: #f6f3ee; }
+.mark-art {
+  display: grid;
+  place-items: center;
+  min-height: 430px;
+  background:
+    radial-gradient(ellipse at 86% 14%, rgba(250, 255, 255, .98) 0 8%, rgba(194, 246, 248, .9) 23%, transparent 48%),
+    radial-gradient(ellipse at 10% 78%, rgba(47, 221, 226, .92) 0 12%, transparent 49%),
+    linear-gradient(122deg, #42d8dc 0%, #2599d9 36%, #236bb9 61%, #bfeef1 100%);
+}
 .mark-art::before, .mark-art::after { display: none; }
 .hero-mark { width: min(86%, 520px); height: auto; }
 
