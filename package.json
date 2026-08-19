@@ -1,0 +1,16 @@
+{
+  "name": "toumio-labs-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Toumiō Labs public website",
+  "scripts": {
+    "dev": "node scripts/dev-server.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/dev-server.mjs dist 4173",
+    "lint": "node scripts/check-site.mjs",
+    "typecheck": "node --check scripts/build.mjs && node --check scripts/dev-server.mjs && node --check src/assets/site.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
