@@ -61,5 +61,5 @@ createServer(async (request, response) => {
     response.end(error instanceof Error ? error.message : "Server error");
   }
 }).listen(port, () => {
-  console.log(`Toumiō Labs site running at http://localhost:${port}`);
+  console.log(`Tomio Labs site running at http://localhost:${port}`);
 });

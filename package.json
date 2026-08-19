@@ -1,8 +1,8 @@
 {
-  "name": "toumio-labs-site",
+  "name": "tomio-labs-site",
   "version": "1.0.0",
   "private": true,
-  "description": "Toumiō Labs public website",
+  "description": "Tomio Labs public website",
   "scripts": {
     "dev": "node scripts/dev-server.mjs",
     "build": "node scripts/build.mjs",

@@ -9,4 +9,4 @@ const output = resolve(root, "dist");
 await rm(output, { recursive: true, force: true });
 await mkdir(output, { recursive: true });
 await cp(source, output, { recursive: true });
-console.log(`Built Toumiō Labs static site to ${output}`);
+console.log(`Built Tomio Labs static site to ${output}`);

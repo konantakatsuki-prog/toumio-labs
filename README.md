@@ -1,6 +1,6 @@
-# Toumiō Labs
+# Tomio Labs
 
-Dependency-free static public website for Toumiō Labs, built for Cloudflare Pages.
+Dependency-free static public website for Tomio Labs, built for Cloudflare Pages.
 
 ## Local development
 
