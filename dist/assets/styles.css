@@ -233,6 +233,8 @@ img, svg { display: block; max-width: 100%; }
   .site-nav { color: #c8c5ce; }
   .site-nav a:hover, .site-nav a[aria-current="page"] { color: var(--ink); }
   .site-nav.is-open { background: rgba(26, 26, 31, .98); }
+  .explore-card { background: rgba(26, 26, 31, .62); }
+  .explore-card:hover { background: #24242b; }
   .mochi-card { background: #211e38; }
   .mochi-window { border-color: rgba(185, 176, 255, .25); background: rgba(26, 26, 31, .72); }
   .window-top { border-color: rgba(185, 176, 255, .18); }
